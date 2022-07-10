@@ -28,7 +28,7 @@ library(scales)
 
 ##### What's the probability of a dog guessing the winners of a six game series?
 - Let's assume dogs don't know basketball. A dog's winning team guess for each game is like flipping a coin.
-- For simplicity, let's also assume the probability of a team winning a game is 50%.
+- For simplicity, let's also assume the probability of a team winning a game is 50% and is an independent event (e.g. winning the first game doesn't change the proability of winning the second game).
 - There's a ~1.56% chance that a dog guesses correctly for all six games. This concept is similar to the probability of flipping heads six times in a row (`(1/2)^6`) which is also ~1.56%. 
 
 ```{r}
